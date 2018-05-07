@@ -1,0 +1,151 @@
+section.page3-one {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 100px;
+    @media screen and (min-width: $break-medium) {
+        flex-direction: row-reverse;						
+    }
+
+    .page3-title-words {
+        padding: 40px;
+        @media screen and (min-width: $break-medium) {
+            width: 50%;	
+            padding-left: 80px;	
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-right: 40px;				
+        }
+        h3 {
+            padding-bottom: 1.7rem;
+            font-size: 2.7rem;
+            @media screen and (min-width: $break-medium) {
+                	
+                font-size: 3.7rem;	
+            }
+        }
+
+        p {
+            padding-bottom: 1.5rem;	
+            padding-left: 40px;
+            line-height: 1.3rem;
+            @media screen and (min-width: $break-medium) {
+                font-size: 16px;
+                font-weight: 600;
+                padding-left: 55px;
+                line-height: 1.5rem;
+                	
+            }
+            
+        }
+    }
+    .page3-img1 {
+        img {
+            width: 100%;
+
+            @media screen and (min-width: $break-medium) {
+               width: auto;				
+            }
+        }
+
+        @media screen and (min-width: $break-medium) {
+            width: 50%;	
+            padding-left: 20px;					
+        }
+    }
+}
+
+section.page3-two {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    @media screen and (min-width: $break-medium) {
+        flex-direction: row;						
+    }
+    .page3-words-two {
+        padding: 40px;
+        @media screen and (min-width: $break-medium) {
+            width: 40%;
+        }
+    }
+    .page3-img2 {
+        height: 420px;
+        background-image: url('../img/page3-img2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (min-width: $break-medium) {
+            width: 60%;
+            height: 506.5px; 
+        }
+    }   
+}
+section.page3-three {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    @media screen and (min-width: $break-medium) {
+        flex-direction: row-reverse;						
+    }
+
+    .page3-img3 {
+        height: 420px;
+        img {
+            width: 100%;
+
+            @media screen and (min-width: $break-medium) {
+               width: auto;				
+            }
+        }
+
+        @media screen and (min-width: $break-medium) {
+            width: 50%;	
+            padding-left: 20px;					
+        }
+    }
+}
+
+section.page3-five {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    @media screen and (min-width: $break-medium) {
+        flex-direction: row;						
+    }
+    .page3-img5 {
+        height: 420px;
+        img {
+            width: 100%;
+
+            @media screen and (min-width: $break-medium) {
+               width: auto;				
+            }
+        }
+
+        @media screen and (min-width: $break-medium) {
+            width: 50%;	
+            padding-left: 20px;					
+        }
+    }
+}
+
+section.page3-four {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+  
+    .page3-img4 {
+        height: 420px;
+        img {
+            height: 100%;
+        }
+        @media screen and (min-width: $break-medium) {
+            display: none; 				
+         }
+    }
+    @media screen and (min-width: $break-medium) {
+        background-image:url('../img/page3-img4.jpg'); 
+        background-repeat: no-repeat;
+     }
+}

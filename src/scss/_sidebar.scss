@@ -1,0 +1,55 @@
+.sidebar {
+		z-index: 1;
+		font-family: 'Abril Fatface', cursive;
+		position: fixed;
+		top: 0;
+		left: -100vw;
+		width: 100vw;
+		height: 100vh;
+		background: url('../img/nav-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: .5s;
+		padding: 20px;
+		box-sizing: border-box;
+
+		@media screen and (min-width: $break-medium) {
+			padding: 25px;				
+		}
+
+	}
+
+	.sidebar.active {
+		left: 0;
+	}
+
+	.sidebar .menu {
+		margin: 0;
+		padding: 120px 0;
+	}
+
+	.sidebar .menu li {
+		list-style: none;
+		
+	}
+
+	.sidebar .menu li a{
+		text-decoration: none;
+		display: block;
+		cursor: pointer;
+		padding: 26px 0;
+		color: #675F5C;
+		letter-spacing: .05rem;
+		font-size: 21px;
+		
+
+		@media screen and (min-width: $break-medium) {
+			font-size: 35px;
+			padding: 26px 19.95323461%;						
+		}
+
+		&:hover {
+			color: #31968E;
+		}
+		
+	}
