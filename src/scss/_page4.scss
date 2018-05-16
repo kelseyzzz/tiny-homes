@@ -1,0 +1,61 @@
+.page4-one {
+    height: 100vh;
+    .page4-one-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+
+        h3.page4-title {
+            font-size: 52px;
+            line-height: 3.8rem;
+
+            @media screen and (min-width: $break-medium) {
+                font-size: 62px;						
+            }
+        }
+
+        .page4-paragraph {
+            font-size: 19px;
+            padding-right: 3px;
+            padding-top: 35px;
+            line-height: 1.6rem;
+       
+        }
+        
+    }
+}
+
+section.page4-flush {
+    height: 100vh;
+    background-image: url(../img/flush-mobile-bg.png);
+    background-position: 29%;
+    background-size: 151% 100%;
+    background-repeat: no-repeat
+}
+
+section.page4-adventure {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    background-image: url(../img/adventure-mobile-bg.png);
+    background-position: 23%;
+    background-size: 305% 120%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+section.page4-peasy {
+    height: 100vh;
+    background-image: url(../img/peasy-bg.png);
+    // background-position: 29%;
+    background-size: cover;
+    background-repeat: no-repeat
+}

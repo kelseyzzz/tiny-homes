@@ -2,9 +2,21 @@ section.page3-one {
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 50px;
     @media screen and (min-width: $break-medium) {
         flex-direction: row-reverse;						
+    }
+    .page3-img1 {
+        height: 420px;
+        background-image: url('../img/page3-img1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (min-width: $break-medium) {
+            width: 50%;	
+            height: 524.5px;
+            padding-left: 20px; 
+        }
     }
 
     .page3-title-words {
@@ -39,20 +51,20 @@ section.page3-one {
             
         }
     }
-    .page3-img1 {
-        img {
-            width: 100%;
+    // .page3-img1 {
+    //     img {
+    //         width: 100%;
 
-            @media screen and (min-width: $break-medium) {
-               width: auto;				
-            }
-        }
+    //         @media screen and (min-width: $break-medium) {
+    //            width: auto;				
+    //         }
+    //     }
 
-        @media screen and (min-width: $break-medium) {
-            width: 50%;	
-            padding-left: 20px;					
-        }
-    }
+    //     @media screen and (min-width: $break-medium) {
+    //         width: 50%;	
+    //         padding-left: 20px;					
+    //     }
+    // }
 }
 
 section.page3-two {
@@ -66,7 +78,27 @@ section.page3-two {
         padding: 40px;
         @media screen and (min-width: $break-medium) {
             width: 40%;
+            padding-top: 220px
         }
+
+        h3 {
+            padding-bottom: 1.7rem;
+            font-size: 52px;
+            @media screen and (min-width: $break-medium) {
+                font-size: 62px;
+            }
+        }
+
+        p{
+            line-height: 1.3rem;
+            padding-left: 40px;
+            @media screen and (min-width: $break-medium) {
+                padding-left: 0;
+            }
+        }
+
+        
+        
     }
     .page3-img2 {
         height: 420px;
@@ -80,6 +112,7 @@ section.page3-two {
         }
     }   
 }
+
 section.page3-three {
     display: flex;
     width: 100%;
@@ -87,44 +120,42 @@ section.page3-three {
     @media screen and (min-width: $break-medium) {
         flex-direction: row-reverse;						
     }
+    
+
+    .page3-words-three {
+        padding: 40px;
+        @media screen and (min-width: $break-medium) {
+            width: 40%;
+            padding-top: 100px;
+            
+        }
+        h3 {
+            padding-bottom: 1.7rem;
+            font-size: 52px;
+            @media screen and (min-width: $break-medium) {
+                font-size: 62px;
+            }
+        }
+    
+        p{
+            line-height: 1.3rem;
+            padding-left: 40px;
+            @media screen and (min-width: $break-medium) {
+                padding-left: 0;
+            }
+        }
+    }
+
 
     .page3-img3 {
         height: 420px;
-        img {
-            width: 100%;
-
-            @media screen and (min-width: $break-medium) {
-               width: auto;				
-            }
-        }
+        background-image: url('../img/page3-img3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
 
         @media screen and (min-width: $break-medium) {
-            width: 50%;	
-            padding-left: 20px;					
-        }
-    }
-}
-
-section.page3-five {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    @media screen and (min-width: $break-medium) {
-        flex-direction: row;						
-    }
-    .page3-img5 {
-        height: 420px;
-        img {
-            width: 100%;
-
-            @media screen and (min-width: $break-medium) {
-               width: auto;				
-            }
-        }
-
-        @media screen and (min-width: $break-medium) {
-            width: 50%;	
-            padding-left: 20px;					
+            width: 60%;
+            height: 506.5px; 
         }
     }
 }
@@ -133,19 +164,126 @@ section.page3-four {
     display: flex;
     width: 100%;
     flex-direction: column;
+
+    .page3-words-four {
+        height: 100%;
+        background-image: url('../img/page3-words-three-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 40px;
+        h3 {
+            padding-bottom: 1.7rem;
+            font-size: 52px;
+            @media screen and (min-width: $break-medium) {
+                padding-top: 1rem;
+            }
+        }
     
-  
-    .page3-img4 {
-        height: 420px;
-        img {
-            height: 100%;
+        p{
+            line-height: 1.3rem;
+            padding-left: 40px;
+            @media screen and (min-width: $break-medium) {
+                padding-left: 0;
+                line-height: 1.4rem;
+            }
+            
         }
         @media screen and (min-width: $break-medium) {
-            display: none; 				
-         }
+            height: 50%;
+            width: 39.03200625%;
+            position: absolute;
+            bottom: 0;
+            left: 2%;
+            min-width: 500px;
+            padding: 95px;
+            z-index: 2;
+        }
+
+        
+    }
+    .page3-img4 {
+        height: 420px;
+        background-image: url('../img/page3-img4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (min-width: $break-medium) {
+            display: none;
+        }
+    }
+    .page3-four-cutout{
+        background-image:url('../img/page3-bottom-cutout.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+        min-height: 200px;
+        height: 345px; 
+        z-index: 1;
+        display: none;
+        @media screen and (min-width: $break-medium) {
+			display: flex;			
+		}
     }
     @media screen and (min-width: $break-medium) {
         background-image:url('../img/page3-img4.jpg'); 
         background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -140px;
+        
      }
+
 }
+
+section.page3-five {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 100px;
+    @media screen and (min-width: $break-medium) {
+        flex-direction: row;						
+    }
+    .page3-words-five {
+        padding: 40px;
+        @media screen and (min-width: $break-medium) {
+            width: 40%;
+            padding-top: 220px
+        }
+        h3.page3-five-heading-mobile {
+            padding-bottom: 1.7rem;
+            font-size: 52px;
+            @media screen and (min-width: $break-medium) {
+                display: none;						
+            }
+        }
+        h3.page3-five-heading-desktop {
+            display: none;
+            padding-bottom: 1.7rem;
+            font-size: 62px;
+            @media screen and (min-width: $break-medium) {
+                display: flex;						
+            }
+        }
+    
+        p{
+            line-height: 1.3rem;
+            padding-left: 40px;
+            @media screen and (min-width: $break-medium) {
+                padding-left: 0;
+            }
+        }
+    }
+    .page3-img5 {
+        height: 420px;
+        background-image: url('../img/page3-img5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media screen and (min-width: $break-medium) {
+            width: 60%;
+            height: 506.5px; 
+        }
+    }
+}
+
